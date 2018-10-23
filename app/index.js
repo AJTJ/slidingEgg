@@ -1,5 +1,6 @@
 import "styles/index.scss";
-import * as GyroNorm from "../node_modules/gyronorm/dist/gyronorm.complete";
+import GyroNorm from "../node_modules/gyronorm/dist/gyronorm.complete";
+import eggPng from "../assets/images/egg.png";
 
 document.addEventListener("DOMContentLoaded", () => {
     //CANVAS
@@ -11,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         x = 10,
         y = 10;
 
-    imageObj.src = "./assets/images/egg.png";
+    imageObj.src = eggPng;
 
     //ANIMATION
     let animate = () => {
