@@ -2,6 +2,7 @@ const path = require("path");
 const merge = require("webpack-merge");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const webpackConfig = require("./webpack.config");
+const webpack = require("webpack");
 
 module.exports = merge(webpackConfig, {
     devtool: "source-map",
@@ -12,5 +13,8 @@ module.exports = merge(webpackConfig, {
         publicPath: "./"
     },
 
-    plugins: [new CleanWebpackPlugin(["dist"])]
+    plugins: [
+        new CleanWebpackPlugin(["dist"]),
+        new webpack.IgnorePlugin(/vertx/)
+    ]
 });

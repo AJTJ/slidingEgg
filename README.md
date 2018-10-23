@@ -2,6 +2,8 @@ By accessing the Gyroscope and Accelerometer, you can slide the egg around the f
 
 ## Instructions
 
+Make sure you're using the latest version of `node`
+
 1. clone the repo
 2. `yarn`
 3. `yarn dev`
