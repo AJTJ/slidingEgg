@@ -37,8 +37,8 @@ document.addEventListener("DOMContentLoaded", () => {
                         ? null
                         : (y = y - currentY);
 
-                    document.getElementById("x").innerHTML = x.toString();
-                    document.getElementById("y").innerHTML = y.toString();
+                    document.getElementById("x").innerHTML = x.toFixed(2);
+                    document.getElementById("y").innerHTML = y.toFixed(2);
                     animate();
                 });
             })
