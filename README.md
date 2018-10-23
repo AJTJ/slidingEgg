@@ -1,11 +1,5 @@
 By accessing the Gyroscope and Accelerometer, you can slide the egg around the frying pan.
 
-## Instructions
-
-1. clone the repo
-2. `yarn`
-3. `yarn dev`
-
 ## Tools used
 
 ### GyroNorm
