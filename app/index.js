@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         ? null
                         : (x = x + currentX);
 
-                    y + currentY < 0 || y + currentY > 300
+                    y - currentY < 0 || y - currentY > 300
                         ? null
                         : (y = y - currentY);
 
