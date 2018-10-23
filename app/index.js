@@ -29,11 +29,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     let currentX = data.dm.gx,
                         currentY = data.dm.gy;
 
-                    x + currentX < 0 || x + currentX > canvas.width / 2
+                    x + currentX < 0 || x + currentX > canvas.width - imageWidth
                         ? null
                         : (x = x + currentX);
 
-                    y - currentY < 0 || y - currentY > 315
+                    y - currentY < 0 || y - currentY > canvas.height - imageHeight
                         ? null
                         : (y = y - currentY);
 
