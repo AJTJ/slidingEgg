@@ -15,10 +15,6 @@ In order to see the effect of a gyroscope and accelerometer, the application nee
 
 ## Tools used
 
-### GyroNorm
-
-Suggested by MDN as a simple way to gather all the gyroscope and accelerometer data into one JS object. Throws an error if that data doesn't exist i.e. any device without those tools.
-
 ### Basic Webpack Boilerplate
 
 Webpack, Babel etc...
